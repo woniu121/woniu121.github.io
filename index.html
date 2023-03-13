@@ -4,25 +4,36 @@
         <meta charset="UTF-8">
         <title>三角</title>
         <style>
-            html,body {
-                height: 100%;
-                width: 100%;
-                margin: 0;
+            .box {
+                height: 0;
+                width: 0;
+                border-bottom: 1040px solid red;
+                border-right: 600px solid transparent;
+                border-left: 600px solid transparent;
+                position: absolute;
+                top:50%;
+                left:50%;
+                margin-left: -600px;
+                margin-top: -520px;
             }
-
-            div {
-                font-size: 900px;
-                color:red;
-                display: grid;
-                align-items: center;
-                justify-content: center;
-
+            .box1 {
+                height: 0;
+                width: 0;
+                border-bottom: 624px solid white;
+                border-right: 360px solid transparent;
+                border-left: 360px solid transparent;
+                position: absolute;
+                top:50%;
+                left:50%;
+                margin-left: -360px;
+                margin-top: -240px;
             }
         </style>
     </head>
 
     <body>
-        <div class="normal">&#9650; </div>
+        <div class="box"></div>
+        <div class="box1"></div>
 
     </body>
 
